@@ -4,13 +4,13 @@ import logging
 from bot_token import admin
 from aiogram import Bot, Dispatcher, executor, types
 
-API_TOKEN = 'admin'
+
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
 # Initialize bot and dispatcher
-bot = Bot(token=API_TOKEN)
+bot = Bot(token=bu yerga bot tokeni qo'shiladi)
 dp = Dispatcher(bot)
 tr = Translator()
 
